@@ -35,6 +35,7 @@ def main():
         # Work out how many nodes the user is running based on stake.
         sns = stake/stakerequirement
         i = pbh
+        rewards.clear()
         
         # Run through each block and make a list of the potential rewards someone will receive.
         while i < bh_vs_sncount[0][-1]:
